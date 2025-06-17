@@ -1,0 +1,26 @@
+This document describes how to make quick edits to the content
+packages used by The Ur-Quan Masters.
+
+1. Extract the package
+----------------------
+The content is distributed in `.uqm` archives. These are ordinary ZIP
+files. Use `unzip` to extract them:
+
+    unzip uqm-0.8.0-content.uqm -d tmp
+
+This creates a directory `tmp` with the package contents.
+
+2. Modify the files
+-------------------
+Edit the extracted files as needed. For example, you might change text
+in `base/gamestrings.txt`.
+
+3. Repack the archive
+---------------------
+When your changes are complete, recreate the archive with `zip`:
+
+    cd tmp
+    zip -r ../uqm-0.8.0-content.uqm .
+
+Copy the resulting `uqm-0.8.0-content.uqm` back to
+`content/packages/` so the game can use your modified content.

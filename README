@@ -14,6 +14,7 @@ platform, please see:
   INSTALL.macosx   for MacOS X build instructions
   INSTALL.symbian  for Symbian build instructions
   doc/users/unixinstall
+  doc/devel/content-editing for modifying the content packages
 
 The home page of the project is located at http://sc2.sourceforge.net/
 You can find links to downloads, our bug database, and our forum there.
